@@ -1,3 +1,3 @@
 # Siet-Resume-Generator
-Resume Maker with college Logo and Using HTML, CSS, Bootstrap, JavaScript, Node.js and Python
-Project Link :- https://harshsfd.github.io/Siet-Resume-Generator/
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Click_Here-brightgreen)](https://harshsfd.github.io/Siet-Resume-Generator/)
