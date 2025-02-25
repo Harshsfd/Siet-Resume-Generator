@@ -38,6 +38,15 @@
 				<h3 class="text-center">Template settings</h3>
 				<button id="defaultTemplateBtn" class="btn btn-block btn-info" onclick="template('default');">Use Official Template</button>
 				<button id="customTemplateBtn" class="btn btn-block btn-success" onclick="template('custom');">Use custom template</button>
+				<select id="resume-template">
+					<option value="template1.html">Template 1 - Simple</option>
+					<option value="template2.html">Template 2 - Two Column</option>
+					<option value="template3.html">Template 3 - Dark Theme</option>
+					<option value="template4.html">Template 4 - Blue Accent</option>
+					<option value="template5.html">Template 5 - Elegant Dark</option>
+				</select>
+				<button onclick="openTemplate()">Generate Resume</button>
+
 				<h5>
 					Minor
 					<div class="toggle-button">
