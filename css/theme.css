@@ -123,3 +123,23 @@ kbd {
 	padding-right: 3px;
 	background-color: #666;
 }
+
+.ats-button {
+    display: block;  /* Makes it appear below the list */
+    width: 200px;  /* Set a fixed width */
+    margin: 15px auto;  /* Centers the button */
+    padding: 10px 20px;  /* Adds spacing */
+    font-size: 18px;  /* Makes text bigger */
+    font-weight: bold;  /* Makes text bold */
+    color: white;  /* Text color */
+    background-color: #28a745;  /* Green button */
+    border: none;
+    border-radius: 5px;  /* Rounded edges */
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s ease;  /* Smooth hover effect */
+}
+
+.ats-button:hover {
+    background-color: #218838;  /* Darker green on hover */
+}
