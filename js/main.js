@@ -350,16 +350,3 @@ function getSelectionContainerElement()
 function insertAfter(referenceNode,newNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
-
-function template(type) {
-    // Select box se jo template choose hua hai uska value lena
-    var selectedTemplate = document.getElementById("resume-template").value;
-
-    // Agar user "Use custom template" button press kare toh custom template load ho
-    if (type === "custom") {
-        selectedTemplate = "template1.html"; // Default custom template
-    }
-
-    // Template page open karna naye tab me
-    window.open("templates/" + selectedTemplate, "_blank");
-}
